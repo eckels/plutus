@@ -167,6 +167,13 @@
 }
 
 @media (max-width: 700px) {
+    .about-section-wrapper {
+        padding-top: 72px;
+        padding-bottom: 24px;
+        .about-section {
+    
+        }
+    }
     .card-section-wrapper {
         .card-section {
             display: block;
@@ -230,7 +237,7 @@
 
 @media (max-width: 750px) {
     .mission-section-wrapper {
-        padding-top: 12px;
+        padding-top: 0px;
         padding-bottom: 56px;
         .mission-section {
             .content-wrapper {

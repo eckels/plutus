@@ -274,6 +274,10 @@ button:hover {
 }
 
 @media (max-width: 700px) {
+  .about-section-wrapper {
+    padding-top: 72px;
+    padding-bottom: 24px;
+  }
   .card-section-wrapper .card-section {
     display: block;
   }
@@ -326,7 +330,7 @@ button:hover {
 
 @media (max-width: 750px) {
   .mission-section-wrapper {
-    padding-top: 12px;
+    padding-top: 0px;
     padding-bottom: 56px;
   }
   .mission-section-wrapper .mission-section .content-wrapper .content {
