@@ -1,0 +1,109 @@
+@import 'main';
+@import 'nav';
+
+.header-wrapper {
+
+}
+
+.header-shader {
+    height: 60vh;
+    min-height: 450px;
+    background-color: $primary-color;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.center-wrap {
+    position: relative;
+    z-index: 3;
+    margin-top: 48px;
+    .center {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .left {
+            margin-top: 72px;
+            margin-right: 24px;
+            h1 {
+                color: $white;
+                margin: 0;
+                margin-bottom: 18px;
+                font-size: 2em;
+            }
+            .desc {
+                color: $white;
+                max-width: 600px;
+                font-size: 1.05em;
+                margin-bottom: 24px;
+            }
+        }
+        .right {
+            img {
+                width: auto;
+                height: 70vh;
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .header-shader {
+        height: 60vh;
+        min-height: 420px;
+    }
+    .center-wrap {
+        margin-top: 32px;
+        .center {
+            .left {
+                margin-top: 48px;
+                margin-right: 24px;
+                h1 {
+                    font-size: 1.8em;
+                }
+                .desc {
+                    font-size: 1.05em;
+                    margin-bottom: 24px;
+                }
+            }
+            .right {
+                img {
+                    height: 65vh;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .header-shader {
+        height: 85vh;
+        min-height: auto;
+    }
+    .center-wrap {
+        margin-top: 30px;
+        .center {
+            display: block;
+            .left {
+                margin-top: 0;
+                margin-right: 24px;
+                h1 {
+                    font-size: 1.6em;
+                }
+                .desc {
+                    font-size: 1em;
+                    margin-bottom: 24px;
+                }
+            }
+            .right {
+                margin-top: 36px;
+                text-align: center;
+                img {
+                    width: 80%;
+                    max-width: 300px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
