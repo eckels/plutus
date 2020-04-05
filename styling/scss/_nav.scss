@@ -23,6 +23,11 @@
                 margin-left: 24px;
                 a {
                     color: $white;
+                    opacity: 0.8;
+                    transition: 0.15s;
+                    &:hover {
+                        opacity: 1;
+                    }
                 }
             }
         }
