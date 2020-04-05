@@ -237,7 +237,8 @@ button:hover {
 .card-section-wrapper .card-section .card-item .card-header {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
+  margin-left: -15px;
 }
 .card-section-wrapper .card-section .card-item .card-header img {
   height: 30px;
