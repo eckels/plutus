@@ -128,6 +128,10 @@ button:hover {
   height: 60vh;
   min-height: 450px;
   background-color: #2ad196;
+  background-image: url("../../img/bround4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
   width: 100%;
   z-index: 1;
@@ -322,6 +326,7 @@ button:hover {
   width: 45%;
   height: auto;
   margin-right: 36px;
+  border-radius: 3px;
 }
 .mission-section-wrapper .mission-section .content-wrapper .content .right-wrap p {
   font-size: 1em;

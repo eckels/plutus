@@ -9,6 +9,10 @@
     height: 60vh;
     min-height: 450px;
     background-color: $primary-color;
+    background-image: url('../../img/bround4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
     width: 100%;
     z-index: 1;
@@ -223,6 +227,7 @@
                     width: 45%;
                     height: auto;
                     margin-right: 36px;
+                    border-radius: 3px;
                 }
                 .right-wrap {
                     p {
