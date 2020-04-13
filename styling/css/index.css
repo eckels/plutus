@@ -128,7 +128,6 @@ button:hover {
   height: 60vh;
   min-height: 450px;
   background-color: #2ad196;
-  background-image: url("../../img/bround4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -166,10 +165,13 @@ button:hover {
 }
 .center-wrap .center .right img {
   width: auto;
-  height: 75vh;
+  height: 65vh;
+}
+.center-wrap .center .right #mobile {
+  display: none;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .header-shader {
     height: 60vh;
     min-height: 420px;
@@ -191,6 +193,12 @@ button:hover {
   }
   .center-wrap .center .right img {
     height: 65vh;
+  }
+  .center-wrap .center .right #mobile {
+    display: block;
+  }
+  .center-wrap .center .right #desktop {
+    display: none;
   }
 }
 @media (max-width: 550px) {
@@ -222,7 +230,8 @@ button:hover {
   }
   .center-wrap .center .right img {
     width: 80%;
-    max-width: 300px;
+    margin-left: 10%;
+    max-width: 320px;
     height: auto;
   }
 }
@@ -427,7 +436,7 @@ button:hover {
   width: auto;
 }
 .footer-wrapper .footer .social-media-wrapper {
-  margin-top: 14px;
+  margin-top: 24px;
 }
 .footer-wrapper .footer .social-media-wrapper .social-media {
   display: flex;

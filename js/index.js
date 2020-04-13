@@ -12,15 +12,16 @@ $( document ).ready(function() {
     }
 });
 
+reMaxHeight = 0
 $(window).resize(function() {
-    maxHeight = 0;
+    reMaxHeight = 0;
     $(".card-content").each(function() {
         var temp = $(this).height();
-        if (maxHeight < temp) {
-            maxHeight = temp;
+        if (reMaxHeight < temp) {
+            reMaxHeight = temp;
         }
     });
     if ($(window).width() > 700) {
-        $('.card-content').css('height', maxHeight);
+        $('.card-content').css('height', reMaxHeight);
     }
 });
